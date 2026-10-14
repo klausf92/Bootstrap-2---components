@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+
+}
+
+h1 {
+    letter-spacing: 2px; 
+    font-size: 3rem;  
+    
+}
+
+header {
+    background-image: url('./foto-cinema-blog/foto 1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav {
+    z-index: 999;
+    
+}
+
+.carousel {
+    width: 50%;
+    
+}
+
+.accordion {
+    width: 35%;
+    
+}
+
+.footer-custom {
+    height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 { 
+        font-size: 2rem; 
+        
+    }
+
+    .list-footer {
+        justify-content: start !important;
+    
+    }
+}
+
+
